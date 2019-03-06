@@ -8,18 +8,16 @@ Contents of this website can be altered with appropriate API calls, but of cours
 
 But I honestly dunno how to implement this, tho
 
-The implementation, I will describe later on my [blog](https://stet-stet.github.io). 
+The implementation, I will describe later on my [blog](https://stet-stet.github.io), if it does turn out to be worth explaining
 
 Sorry for the "-" in the address. 
 
 # tools
 
 The morales behind my tool selection process will be explained as well.
+* [node.js](https://nodejs.org/)
 * [express.js](https://expressjs.com/)
-  * body-parser(https://www.npmjs.com/package/body-parser)
-  * multer(https://www.npmjs.com/package/multer)
-* [vue.js](https://vuejs.org/)
-* ...and only few more.
+* [EJS](https://ejs.co/)
 
 # To be updated.
 Honestly I don't even know how this'll turn out to be
