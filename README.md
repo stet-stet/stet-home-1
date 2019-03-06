@@ -14,7 +14,12 @@ Sorry for the "-" in the address.
 
 # tools
 
+The morales behind my tool selection process will be explained as well.
 * [express.js](https://expressjs.com/)
+  * body-parser(https://www.npmjs.com/package/body-parser)
+  * multer(https://www.npmjs.com/package/multer)
+* [vue.js](https://vuejs.org/)
+* ...and only few more.
 
 # To be updated.
 Honestly I don't even know how this'll turn out to be
