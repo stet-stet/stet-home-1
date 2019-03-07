@@ -1,11 +1,28 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><%= title %></title>
     <link rel='stylesheet' href='/stylesheets/style.css' />
   </head>
   <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
+    <div class="bigWrap">
+      <div class="HALTWrap">
+        <% for( iter of status){ %>
+          <% if(iter.state === true){ %>
+          <span class="HALTText on"><%= iter.letter %></span>
+          <%}else{%>
+          <span class="HALTText off"><%= iter.letter %></span>
+          <%}}%>
+      </div>
+    </div>
+    <div class="explainwrap">
+      <p class="explain">
+        This website is for demonstration purposes only.<br>
+        <span class="logo">Information alone is not enough; we also need the meaning of that information.</span><br>
+        To find out more about HALT, please refer to <a href="https://healthypsych.com/h-a-l-t-hungry-angry-lonely-and-tired-a-self-care-tool/">this link</a>.<br>
+        By <a href="https://twitter.com/stet_stet_stet">@stet_stet_stet</a>.<br>
+      </p>
+    </div>
   </body>
 </html>
