@@ -48,24 +48,89 @@ a {
   left:0;
 
   background-color: black;
-  padding: 12px;
+  padding:0;
+  overflow: hidden;
 }
 
 .explain{
   font-family: 'Times New Roman', Times, serif;
   color: white;
   z-index:inherit;
+  padding-right:0;
+  
 }
 
-@media only screen and (max-width:600px){
+.loginwrap{
+  margin:auto;
+  position:absolute;
+  text-align: center;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+
+.inputbox{
+  background-color: black;
+  color:white;
+  border-right: 2px white solid;
+  border-left: 2px white solid;
+  border-bottom: 1px black solid;
+  border-top: 1px black solid;
+  border-radius: 0;
+  font-variant: small-caps;
+  font-family: 'Times New Roman', Times, serif;
+  font-size:36px;
+  width: 45vw;
+  padding:6px;
+  display: block;
+}
+.submitbutton{
+  background-color: black;
+  color:white;
+  border-right: 1px black solid;
+  border-left: 2px white solid;
+  border-bottom: 1px black solid;
+  border-top: 1px black solid;
+  font-variant: small-caps;
+  font-family: 'Times New Roman', Times, serif;
+  font-size:36px;
+  padding:6px;
+  display:block;
+}
+
+@media only screen and (max-width:460px){
+  .inputbox{
+    font-size:36px;
+    width:65vw;
+  }
+  .submitbutton{font-size:36px;}
+}
+
+@media only screen and (min-width:460px){
   .explain{
     font-size:16px;
+    /* transform:translate(-16px,-16px); */
+  }
+  .inputbox{
+    font-size:36px;
+    width:55vw;
+  }
+  .submitbutton{
+    font-size:36px;
   }
 }
 
-@media only screen and (min-width:600px){
+@media only screen and (min-width:860px){
   .explain{
     font-size:1.5vw;
+    /* transform:translate(-1.5vw,-1.5vw); */
+  }
+  .inputbox{
+    font-size:48px;
+    width:45vw;
+  }
+  .submitbutton{
+    font-size:48px;
   }
 }
 
